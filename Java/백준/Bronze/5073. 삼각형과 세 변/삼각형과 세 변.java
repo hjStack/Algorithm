@@ -1,9 +1,8 @@
-
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
-
+        
         Scanner scanner=new Scanner(System.in);
 
         while(true){
@@ -30,6 +29,7 @@ public class Main {
             else if(a == b || b == c || a == c){
                 System.out.println("Isosceles");
             }
+
             else{
                 System.out.println("Scalene");
             }
